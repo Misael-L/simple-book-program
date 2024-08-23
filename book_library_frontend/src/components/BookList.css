@@ -1,0 +1,28 @@
+.book-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-list h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .book-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  .book-list li:last-child {
+    border-bottom: none;
+  }
